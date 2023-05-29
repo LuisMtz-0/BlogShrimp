@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS ShrimpBlogs_db;
+
+CREATE DATABASE ShrimpBlogs_db;
