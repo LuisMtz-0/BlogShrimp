@@ -1,0 +1,13 @@
+{{!-- This will map through each instance display all items --}}
+{{#each posts as |post|}}
+
+ <div class="w-5/6 h-fit bg-green-950 text-white mx-auto mt-5 border-4 border-black">
+        <div class="text-2xl underline bg-black text-white flex justify-between">
+          <a href="/post/{{post.id}}">{{post.name}}</a>
+          <div>Created by {{post.user.name}} on {{format_date post.data_created}}</div>
+        </div>
+        <div class="bg-green-950 text-black text-xl text-center">
+          {{post.description}}
+        </div>
+</div>
+{{/each}}  

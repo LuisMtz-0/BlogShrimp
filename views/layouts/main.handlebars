@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Shrimp Blog</title>
+</head>
+<body class="h-screen bg-green-950 relative">
+
+    <div class="bg-black h-1/6">
+      <nav class="text-green-950 text-2xl">
+        <!-- Conditionally render login or logout links -->
+        <!-- {{#if logged_in}} -->
+        <a href="/">Home</a> |
+        <a href="/profile">Dashboard</a> |
+        <!-- <button class="no-button" id="logout">logout</button> -->
+        <!-- {{else}} -->
+        <a href="/login">login</a>
+        <!-- {{/if}} -->
+      </nav>
+      <h1 class="bg-green-950 text-black w-max text-4xl mt-4 ml-5">
+        The Shrimp Blog
+      </h1>
+    </div>
+    <main class="">
+      <!-- Handle bars will be displayed here -->
+      {{{ body }}}
+ </main>
+
+<footer class="h-12 bg-black text-white flex justify-evenly absolute inset-x-0 bottom-0">
+ <a href="https://github.com/LuisMtz-0/BlogShrimp">Repository</a>
+ <p>GitHub: LuisMtz-0</p>
+</footer>
+{{#if logged_in}}
+<script src="/js/logout.js"></script>
+{{/if}}
+</body>
+</html>
