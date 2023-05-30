@@ -36,8 +36,8 @@ if (process.env.JAWSDB_URL) {
     DB_USER='root',
     DB_PASSWORD='605291Lmtz$',
     {
-      host: '127.0.0.1.',
-      // host: 'localhost',
+      // host: '127.0.0.1.',
+      host: 'localhost',
       dialect: 'mysql',
       dialectOption:{
         decimalNumbers: true,
