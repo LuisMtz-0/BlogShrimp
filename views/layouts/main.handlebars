@@ -12,13 +12,13 @@
     <div class="bg-black h-1/6">
       <nav class="text-green-950 text-2xl">
         <!-- Conditionally render login or logout links -->
-        <!-- {{#if logged_in}} -->
+         {{#if logged_in}} 
         <a href="/">Home</a> |
         <a href="/profile">Dashboard</a> |
-        <!-- <button class="no-button" id="logout">logout</button> -->
-        <!-- {{else}} -->
+        <button class="no-button" id="logout">logout</button> 
+         {{else}}
         <a href="/login">login</a>
-        <!-- {{/if}} -->
+         {{/if}}
       </nav>
       <h1 class="bg-green-950 text-black w-max text-4xl mt-4 ml-5">
         The Shrimp Blog
