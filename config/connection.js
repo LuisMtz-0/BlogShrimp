@@ -34,7 +34,7 @@ if (process.env.JAWSDB_URL) {
     // process.env.DB_PASSWORD,
     DB_NAME='ShrimpBlogs_db',
     DB_USER='root',
-    DB_PW='605291Lmtz$',
+    DB_PASSWORD='605291Lmtz$',
     {
       host: '127.0.0.1.',
       dialect: 'mysql',
