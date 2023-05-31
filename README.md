@@ -17,7 +17,7 @@
 
 ## Usage 
 
-Video: 
+Video: https://drive.google.com/file/d/1wRswN-WfBhkMIBtGJ90dCGCP7-f-H08D/view
 
 ## Credits
 
